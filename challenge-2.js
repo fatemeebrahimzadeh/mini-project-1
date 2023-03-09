@@ -3,8 +3,7 @@ function average(marks) {
   for (const mark of marks) {
     sum += mark;
   }
-  average = sum / marks.length;
-  return average;
+  return sum / marks.length;
 }
 
 // test case
